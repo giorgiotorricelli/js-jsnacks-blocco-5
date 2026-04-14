@@ -5,5 +5,16 @@ const posts = [
   { author: 'Enrico', date: '09/12/2021', content: 'lorem ipsum...' },
 ]
 
+//utilizzo ancora la map
+
+function cbPosts(post, index){
+  return post.author
+}
+
+const output = posts.map(cbPosts);
+
+console.log(output);
+
+
 // Crea un nuovo array coi nomi di tutti gli autori
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
