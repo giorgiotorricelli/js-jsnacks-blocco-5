@@ -8,7 +8,7 @@ const posts = [
 //utilizzo ancora la map
 
 function cbPosts(post, index){
-  return post.author
+  return post.author;
 }
 
 const output = posts.map(cbPosts);
