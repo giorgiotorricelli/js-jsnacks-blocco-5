@@ -4,5 +4,8 @@ const people = [
   { name: 'Marco', age: 67 }
 ];
 
+console.log(people[0].name);
+
+
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
